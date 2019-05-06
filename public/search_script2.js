@@ -29,7 +29,7 @@ function getAllProperties() {
           parseFloat(property.lat),
           parseFloat(property.longitude)
         ]).addTo(map);
-        console.log("lat" + property.lat);
+        console.log("latitude" + property.lat);
       }
     }
   });
